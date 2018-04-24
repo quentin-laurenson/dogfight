@@ -1,10 +1,11 @@
 
 
+
 import jpu2016.dogfight.controller.DogfightController;
 import jpu2016.dogfight.model.DogfightModel;
 import jpu2016.dogfight.view.DogfightView;
 
-public class main {
+public abstract class Main {
 
 	public static void main(String[] args) {
 		final DogfightModel dogfightModel = new DogfightModel();
